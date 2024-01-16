@@ -5,5 +5,76 @@
 }
 
 body {
-    background: ;
+  background: linear-gradient(135deg, rgb(0, 0, 75), rgb(139, 28, 1)) no-repeat top center/ cover;
+  height: 100vh;
+
+  font-family: 'Roboto', sans-serif;
+  color: white;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    /*largura mínima do browser - 800 x 360*/
+  /* background-size: cover; A imagem se ajusta e cobre todo o contenedor (conteúdo?)*/
+  /* background-position: center; A imagem se posiciona no centro */
+  /* background-repeat: no-repeat; Evita que a imagem se repita */
+  /* height: 100vh; Ajusta a altura em 100% do viewport (altura janela de exibição) */
+  /* margin: 0; Elimina a margem predeterminada do body */
+}
+
+#barradepesquisa {
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+  
+  width: 360px;
+  padding: 8px;
+
+  text-align: center;
+}
+
+#barradepesquisa h1 {
+  width: 269px;
+
+  display: inline-block;
+  align-items: center;
+  justify-content: center;
+
+  margin: 10px;
+
+  font-family: 'Roboto', sans-serif;
+  color: white;
+
+  font-size: 35px;
+  transition: 0.2s;
+}
+
+#barradepesquisa h1:hover {
+  color: #D07F62;
+}
+
+#barradepesquisa input {  
+  width: 200px;
+  border: 1px solid rgba(0, 0, 0);
+  border-radius: 8px;
+  
+  padding: 5px;
+
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  text-align: center;
+  color: rgb(0, 0, 0);
+
+  transition: background 0.5s;
+  transition: border 0.5s;
+  transition: color;
+}
+
+#barradepesquisa input:hover {
+  border: 1px solid ;
+
+  background-color: rgba(0, 0, 0, 0);
+
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
 }
