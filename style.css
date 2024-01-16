@@ -14,12 +14,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-    /*largura mínima do browser - 800 x 360*/
-  /* background-size: cover; A imagem se ajusta e cobre todo o contenedor (conteúdo?)*/
-  /* background-position: center; A imagem se posiciona no centro */
-  /* background-repeat: no-repeat; Evita que a imagem se repita */
-  /* height: 100vh; Ajusta a altura em 100% do viewport (altura janela de exibição) */
-  /* margin: 0; Elimina a margem predeterminada do body */
 }
 
 #barradepesquisa {
