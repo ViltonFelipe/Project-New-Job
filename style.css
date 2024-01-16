@@ -5,71 +5,60 @@
 }
 
 body {
-  background: linear-gradient(0deg, rgb(2, 0, 100), rgb(0, 174, 255)) no-repeat top center/ cover;
-  height: 100vh;
-
-  font-family: 'Roboto', sans-serif;
-  color: white;
-
   display: flex;
   justify-content: center;
   align-items: center;
-}
 
-#buscadordecep {
-  display: block;
-  align-items: center;
-  justify-content: center;
-  
-  width: 360px;
-  padding: 8px;
+  background: linear-gradient(0deg, rgb(10, 0, 0), rgb(0, 0, 0), rgb(0, 0, 15)) no-repeat top center/ cover;
+  height: 100vh;
 
   text-align: center;
-}
-
-#buscadordecep h1 {
-  width: 269px;
-
-  display: inline;
-  align-items: center;
-  justify-content: center;
-
   font-family: 'Roboto', sans-serif;
   color: white;
+}
 
+#caixa {
+  width: 630px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#caixa h1 {
+  width: 271px;
+
+  font-family: 'Roboto', sans-serif;
   font-size: 35px;
+  color: white;
+  
   transition: 0.2s;
 }
 
-#buscadordecep h1:hover {
+#caixa h1:hover {
   color: rgba(255, 255, 255, 0.63);
 }
 
 #barradepesquisa{
-  margin: 8px auto auto;
-  padding: auto;
+  width: 335px;
 
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 #barradepesquisa input {
-  width: 200px;
   border: 1px solid rgba(0, 0, 0);
   border-radius: 10px;
-  
-  margin: 10px;
+  margin: 0;
   padding: 5px;
 
-  font-size: 22px;
+  font-size: 25px;
   font-family: 'Roboto', sans-serif;
   text-align: center;
   color: rgb(0, 0, 0);
-
-  transition: background 0.5s;
-  transition: border 0.5s;
-  transition: color;
+  
+  transition: background .2s;
 }
 
 #barradepesquisa input:hover {
@@ -83,21 +72,18 @@ body {
 
 #iconedepesquisa {
   display: flex;
-  align-items: center;
-  justify-content: center;
 
   background-color: #ffffff00;
   border-radius: 50%;
-  border: 2px solid rgba(255, 255, 255, 0);
-  margin: 2px 0 0 2px; 
-  padding: 3px;
-  color: #ffffff;
+  border:rgba(255, 255, 255, 0);
 
-  font-size: 30px;
+  font-size: 35px;
+  color: #ffffff;
 
   transition: background 0.2s;
 }
 
 #iconedepesquisa:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  color: #ffffff9d;
+  font-size: 32px;
 }
