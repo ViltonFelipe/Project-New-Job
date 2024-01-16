@@ -16,8 +16,8 @@ body {
   align-items: center;
 }
 
-#barradepesquisa {
-  display: inline-block;
+#buscadordecep {
+  display: block;
   align-items: center;
   justify-content: center;
   
@@ -27,14 +27,12 @@ body {
   text-align: center;
 }
 
-#barradepesquisa h1 {
+#buscadordecep h1 {
   width: 269px;
 
-  display: inline-block;
+  display: inline;
   align-items: center;
   justify-content: center;
-
-  margin: 10px;
 
   font-family: 'Roboto', sans-serif;
   color: white;
@@ -43,15 +41,25 @@ body {
   transition: 0.2s;
 }
 
-#barradepesquisa h1:hover {
+#buscadordecep h1:hover {
   color: rgba(255, 255, 255, 0.63);
 }
 
-#barradepesquisa input {  
+#barradepesquisa{
+  margin: 8px auto auto;
+  padding: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#barradepesquisa input {
   width: 200px;
   border: 1px solid rgba(0, 0, 0);
-  border-radius: 8px;
+  border-radius: 10px;
   
+  margin: 10px;
   padding: 5px;
 
   font-size: 22px;
@@ -71,4 +79,25 @@ body {
 
   font-family: 'Roboto', sans-serif;
   color: rgb(255, 255, 255);
+}
+
+#iconedepesquisa {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #ffffff00;
+  border-radius: 50%;
+  border: 2px solid rgba(255, 255, 255, 0);
+  margin: 2px 0 0 2px; 
+  padding: 3px;
+  color: #ffffff;
+
+  font-size: 30px;
+
+  transition: background 0.2s;
+}
+
+#iconedepesquisa:hover {
+  background-color: rgba(255, 255, 255, 0.2);
 }
