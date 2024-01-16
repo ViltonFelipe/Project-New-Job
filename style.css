@@ -58,15 +58,13 @@ body {
   text-align: center;
   color: rgb(0, 0, 0);
   
-  transition: background .2s;
+  transition: .2s;
 }
 
 #barradepesquisa input:hover {
-  border: 1px solid ;
+  border: 1px solid white;
 
   background-color: rgba(255, 255, 255, 0);
-
-  font-family: 'Roboto', sans-serif;
   color: rgb(255, 255, 255);
 }
 
@@ -80,7 +78,7 @@ body {
   font-size: 35px;
   color: #ffffff;
 
-  transition: background 0.2s;
+  transition: 0.1s;
 }
 
 #iconedepesquisa:hover {
