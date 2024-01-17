@@ -17,6 +17,14 @@ body {
   color: white;
 }
 
+@media only screen and (max-width: 600px) {
+  body {
+      font-size: 14px;
+      /* Outros estilos para dispositivos móveis */
+  }
+}
+
+
 #caixa {
   width: 620px;
 
