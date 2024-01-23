@@ -8,11 +8,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-
   background: linear-gradient(0deg, rgb(10, 0, 0), rgb(0, 0, 0), rgb(0, 0, 15)) no-repeat top center/ cover;
   height: 100vh;
 
-  text-align: center;
   font-family: 'Roboto', sans-serif;
   color: white;
 }
@@ -21,18 +19,21 @@ body {
   width: 620px;
 
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+
+  justify-content: center;
   align-items: center;
 }
 
 #caixa h1 {
-  width: 271px;
+  width: 350px;
 
   font-family: 'Roboto', sans-serif;
-  font-size: 35px;
+  font-size: 43px;
   color: white;
+  text-align: center;
   
-  transition: 0.2s;
+  transition: 0.1s;
 }
 
 #caixa h1:hover {
@@ -64,7 +65,7 @@ body {
 #barradepesquisa input:hover {
   border: 1px solid white;
 
-  background-color: rgba(255, 255, 255, 0);
+  background: rgba(255, 255, 255, 0);
   color: rgb(255, 255, 255);
 }
 
@@ -78,7 +79,7 @@ body {
   font-size: 35px;
   color: #ffffff;
 
-  transition: 0.1s;
+  transition: 0s;
 }
 
 #iconedepesquisa:hover {
