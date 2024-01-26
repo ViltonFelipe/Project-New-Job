@@ -19,13 +19,11 @@ body * {
 }
 
 #caixa {
-  border: solid;
   text-align: center;
   margin: auto;
 }
 
 #caixa h1 {
-  border: 1px solid blue;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -42,7 +40,6 @@ body * {
 }
 
 #barradepesquisa{
-  border: 1px solid #ff0000;
   display: flex;
   justify-content: space-between;
   align-items: center;
